@@ -16,7 +16,6 @@ L'objectif est de documenter les données, puis de préparer la suite du stage a
 - `data/` : fichiers CSV téléchargés.
 - `notebooks/` : notebooks d'exploration.
 - `scripts/` : scripts de téléchargement.
-- `docs/` : notes et documents de travail.
 
 ## Scripts
 
