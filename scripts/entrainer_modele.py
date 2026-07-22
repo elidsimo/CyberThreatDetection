@@ -9,6 +9,7 @@ import joblib
 
 # 1. Chargement des donnees
 df = pd.read_csv("data/dataset.csv")
+df = df.drop(columns=["index"])   # <-- ligne à ajouter
 df = df.dropna()
 
 COLONNE_CIBLE = "Result"  # A adapter selon ton dataset
